@@ -1,0 +1,1552 @@
+@relation dataset
+
+@attribute Localisation {'Mozart à              Tanger','Moujahidine à              Tanger','Malabata à              Tanger',Tanger,'Centre à              Tanger','Administratif à              Tanger','Iberie à              Tanger','Boukhalef à              Tanger','Marjane à              Tanger','Msala à              Tanger','Zouitina à              Tanger','Route Nationale Assilah (N1) à              Tanger','Castilla à              Tanger','Tanger City Center à              Tanger','De La Plage à              Tanger','Jbel Kbir à              Tanger','Bella Vista à              Tanger','Ennasr à              Tanger','El Majd à              Tanger','Rmilat à              Tanger','Aouama Gharbia à              Tanger','Mesnana à              Tanger','Médina à              Tanger','Casabarata à              Tanger','Achakar à              Tanger','Californie à              Tanger','Marchan à              Tanger','Bel Air - Val fleuri à              Tanger','Beni Said à              Tanger','Jirrari à              Tanger','Aharrarine à              Tanger','Tanja Balia à              Tanger','Mghogha à              Tanger','Laaouina à              Tanger','Branes 2 à              Tanger','Charf à              Tanger','manar à              Tanger','Tanger Medina à              Tanger','Charf Mghougha à              Tanger','Du Golf à              Tanger','Hay Hassani à              Tanger','Nzaha à              Tanger','Ahlane à              Tanger','Lalla Chafia à              Tanger','Ain El Hayani à              Tanger','Zone Industrielle Mghogha à              Tanger','Cap Spartel à              Tanger','Hay Zaoudia à              Tanger','Drissia à              Tanger','Branes 1 à              Tanger','Al Warda à              Tanger','Hanaa 3 - Soussi à              Tanger','Beni Touzine à              Tanger','Zemmouri à              Tanger','Achennad à              Tanger','Port Tanger ville à              Tanger','Dher Lahmam à              Tanger','El Mers 1 à              Tanger','Al Anbar à              Tanger','Azib Haj Kaddour à              Tanger','Gourziana à              Tanger','Draoua à              Tanger','El Baraka à              Tanger','Sania à              Tanger','Star Hill à              Tanger','Charf Souani à              Tanger'}
+@attribute Price numeric
+@attribute Size numeric
+
+@data
+'Mozart à              Tanger',10000,125
+'Moujahidine à              Tanger',4500,65
+'Mozart à              Tanger',5000,80
+'Malabata à              Tanger',11500,120
+Tanger,13500,130
+'Centre à              Tanger',2300000,206
+'Centre à              Tanger',6200,125
+'Administratif à              Tanger',8500,90
+'Centre à              Tanger',4000,95
+'Iberie à              Tanger',7800,128
+'Boukhalef à              Tanger',1700,17
+'Malabata à              Tanger',6500,85
+'Mozart à              Tanger',6700,100
+'Marjane à              Tanger',2700,100
+'Boukhalef à              Tanger',1200,24
+'Msala à              Tanger',3000,70
+'Zouitina à              Tanger',2500,90
+'Iberie à              Tanger',9800,205
+'Iberie à              Tanger',9000,180
+'Administratif à              Tanger',4000,85
+'Marjane à              Tanger',5500,105
+'Route Nationale Assilah (N1) à              Tanger',2200,60
+'Centre à              Tanger',5500,110
+'Iberie à              Tanger',10000,115
+'Castilla à              Tanger',7500,123
+'Malabata à              Tanger',7000,124
+'Tanger City Center à              Tanger',10500,93
+'Iberie à              Tanger',11000,200
+'Tanger City Center à              Tanger',7500,110
+'Malabata à              Tanger',5000,60
+'Tanger City Center à              Tanger',9500,100
+'De La Plage à              Tanger',6500,85
+'Boukhalef à              Tanger',3500,85
+'Administratif à              Tanger',7000,90
+'Centre à              Tanger',6000,115
+'Malabata à              Tanger',10000,150
+'Iberie à              Tanger',7000,150
+'Administratif à              Tanger',6500,78
+'Mozart à              Tanger',5500,90
+Tanger,13000,122
+Tanger,5000,50
+'De La Plage à              Tanger',7500,80
+'Malabata à              Tanger',9300,120
+'Iberie à              Tanger',12500,134
+'Administratif à              Tanger',4500,91
+'Mozart à              Tanger',7500,100
+'De La Plage à              Tanger',4000,60
+'De La Plage à              Tanger',7000,70
+'Jbel Kbir à              Tanger',25000,600
+'Centre à              Tanger',10000,120
+'Centre à              Tanger',8500,100
+'Bella Vista à              Tanger',7000,90
+'Bella Vista à              Tanger',12000,90
+'Malabata à              Tanger',6000,90
+'Centre à              Tanger',5500,147
+'De La Plage à              Tanger',7000,115
+'Mozart à              Tanger',4000,65
+'Ennasr à              Tanger',2800,120
+'Centre à              Tanger',4500,100
+'Centre à              Tanger',13000,138
+'De La Plage à              Tanger',7600,96
+'Tanger City Center à              Tanger',6300,97
+'Moujahidine à              Tanger',3700,100
+'El Majd à              Tanger',2800,80
+'Rmilat à              Tanger',7000,160
+'Tanger City Center à              Tanger',7000,90
+'Centre à              Tanger',5200,120
+'Mozart à              Tanger',6200,92
+'Administratif à              Tanger',9000,140
+'Malabata à              Tanger',4500,47
+'Aouama Gharbia à              Tanger',1600,61
+'Mesnana à              Tanger',4600,90
+'Iberie à              Tanger',12500,125
+'Administratif à              Tanger',10500,160
+'Iberie à              Tanger',8800,160
+'Iberie à              Tanger',13000,122
+'Centre à              Tanger',4500,75
+'Centre à              Tanger',4000,80
+'Centre à              Tanger',5200,130
+'Iberie à              Tanger',7100,120
+'Médina à              Tanger',2200,50
+'De La Plage à              Tanger',5500,130
+'Casabarata à              Tanger',5000,100
+'Rmilat à              Tanger',9000,144
+'Centre à              Tanger',5500,130
+'Centre à              Tanger',5200,52
+'Marjane à              Tanger',5500,120
+Tanger,10000,220
+Tanger,8500,100
+'Centre à              Tanger',6500,127
+Tanger,13000,130
+'Iberie à              Tanger',9000,200
+'Centre à              Tanger',6500,60
+'Centre à              Tanger',7000,118
+'Achakar à              Tanger',8000,130
+'Malabata à              Tanger',7000,100
+'Route Nationale Assilah (N1) à              Tanger',4000,90
+'Centre à              Tanger',10000,140
+'Centre à              Tanger',5000,106
+'Centre à              Tanger',7000,120
+'Centre à              Tanger',6500,70
+'Centre à              Tanger',8500,104
+'Californie à              Tanger',10000,140
+'Malabata à              Tanger',9500,100
+'Malabata à              Tanger',17000,150
+'Malabata à              Tanger',5300,70
+'De La Plage à              Tanger',8000,105
+'De La Plage à              Tanger',9000,130
+'De La Plage à              Tanger',5500,140
+'Mesnana à              Tanger',2700,85
+'Castilla à              Tanger',7000,120
+'Centre à              Tanger',7500,150
+'Centre à              Tanger',9000,125
+'Moujahidine à              Tanger',3000,85
+'Moujahidine à              Tanger',3500,110
+'Marjane à              Tanger',3000,110
+'Marjane à              Tanger',3000,110
+'De La Plage à              Tanger',4500,75
+'Tanger City Center à              Tanger',5500,70
+'Iberie à              Tanger',8300,150
+'Malabata à              Tanger',6500,97
+'Centre à              Tanger',9000,150
+'Centre à              Tanger',9000,220
+Tanger,9000,150
+Tanger,6000,130
+'Iberie à              Tanger',11000,180
+'Centre à              Tanger',6000,75
+'Moujahidine à              Tanger',3200,115
+'Marchan à              Tanger',9000,90
+'Iberie à              Tanger',9000,142
+'Marjane à              Tanger',3000,110
+'Bel Air - Val fleuri à              Tanger',3400,67
+'Centre à              Tanger',8500,89
+'Centre à              Tanger',9000,187
+'Malabata à              Tanger',13000,100
+'Mozart à              Tanger',5700,85
+'Malabata à              Tanger',9000,130
+'Mozart à              Tanger',4700,70
+'Jbel Kbir à              Tanger',27000,265
+'De La Plage à              Tanger',6000,65
+'De La Plage à              Tanger',9500,130
+'El Majd à              Tanger',650000,88
+'Castilla à              Tanger',4500,94
+Tanger,11000,85
+'Marchan à              Tanger',5000,100
+Tanger,11000,85
+'Mesnana à              Tanger',3000,63
+'Malabata à              Tanger',6000,135
+'Iberie à              Tanger',12000,21
+'Administratif à              Tanger',6000,157
+'Iberie à              Tanger',6500,127
+'Casabarata à              Tanger',4500,83
+'Castilla à              Tanger',6500,157
+'Bella Vista à              Tanger',20000,500
+'Beni Said à              Tanger',1700,58
+'Administratif à              Tanger',3800,90
+'Boukhalef à              Tanger',3500,60
+'Mesnana à              Tanger',2800,80
+'Malabata à              Tanger',13000,129
+'Jirrari à              Tanger',250,55
+'Iberie à              Tanger',12000,150
+'Mozart à              Tanger',5500,110
+'Mozart à              Tanger',1370000,114
+'Centre à              Tanger',6000,115
+'Centre à              Tanger',7000,15
+'Centre à              Tanger',7500,11
+'Centre à              Tanger',6000,11
+'Centre à              Tanger',6000,11
+'Centre à              Tanger',4000,105
+'Centre à              Tanger',6500,12
+'Centre à              Tanger',5700,11
+'Centre à              Tanger',7500,15
+'Centre à              Tanger',7500,100
+'Aharrarine à              Tanger',5200,130
+'Tanja Balia à              Tanger',4000,64
+'Centre à              Tanger',5000,100
+'Centre à              Tanger',8500,120
+'Centre à              Tanger',11000,60
+'Centre à              Tanger',5500,120
+'Iberie à              Tanger',15000,160
+'Iberie à              Tanger',17000,200
+'Administratif à              Tanger',8000,125
+'Moujahidine à              Tanger',3200,85
+'Boukhalef à              Tanger',1900,60
+'Iberie à              Tanger',12000,138
+'Centre à              Tanger',250,70
+'Centre à              Tanger',250,70
+'Tanger City Center à              Tanger',3700,50
+'Mghogha à              Tanger',4700,150
+'Administratif à              Tanger',4000,100
+'Iberie à              Tanger',15000,140
+'Mozart à              Tanger',7000,85
+'Administratif à              Tanger',6500,112
+'Malabata à              Tanger',7000,102
+'Centre à              Tanger',8500,170
+'Centre à              Tanger',5800,89
+'Malabata à              Tanger',14000,90
+'Moujahidine à              Tanger',10000,160
+'Marchan à              Tanger',6500,122
+'Administratif à              Tanger',8300,90
+'Administratif à              Tanger',6500,120
+'Centre à              Tanger',10000,110
+'Centre à              Tanger',13000,130
+'Centre à              Tanger',12000,160
+'Malabata à              Tanger',11000,90
+'Iberie à              Tanger',9000,160
+'De La Plage à              Tanger',6000,90
+'Tanger City Center à              Tanger',9000,80
+'Tanger City Center à              Tanger',7000,80
+'Laaouina à              Tanger',4500,80
+'Mesnana à              Tanger',250,60
+'De La Plage à              Tanger',18000,800
+'Jbel Kbir à              Tanger',25000,300
+'Malabata à              Tanger',10000,130
+'Médina à              Tanger',4500,75
+'Centre à              Tanger',6500,115
+'Tanja Balia à              Tanger',8000,150
+'Centre à              Tanger',8000,175
+'Iberie à              Tanger',6500,127
+'Tanger City Center à              Tanger',8500,70
+'Iberie à              Tanger',9000,180
+'Malabata à              Tanger',8500,100
+'Malabata à              Tanger',8500,100
+Tanger,7200,108
+'De La Plage à              Tanger',9000,100
+'De La Plage à              Tanger',15000,150
+'Centre à              Tanger',8500,100
+'De La Plage à              Tanger',10000,150
+'Mozart à              Tanger',7500,100
+'Mozart à              Tanger',6500,150
+'Mozart à              Tanger',4500,50
+'Centre à              Tanger',4500,50
+'Tanger City Center à              Tanger',7500,70
+'Branes 2 à              Tanger',2200,48
+'Centre à              Tanger',6000,180
+'De La Plage à              Tanger',7500,110
+'Marjane à              Tanger',4000,80
+'De La Plage à              Tanger',4500,46
+'Tanger City Center à              Tanger',8000,89
+'Bella Vista à              Tanger',12000,102
+'Bella Vista à              Tanger',6000,82
+'Bella Vista à              Tanger',6000,90
+'Moujahidine à              Tanger',4500,120
+'Centre à              Tanger',4200,111
+'Malabata à              Tanger',4800,65
+'Mozart à              Tanger',6000,130
+'Mozart à              Tanger',7500,135
+'Boukhalef à              Tanger',2500,60
+'Iberie à              Tanger',3200,35
+'Boukhalef à              Tanger',3000,60
+'Centre à              Tanger',6500,210
+'Route Nationale Assilah (N1) à              Tanger',3000,51
+'Mozart à              Tanger',7400,98
+'Iberie à              Tanger',5600,80
+'Boukhalef à              Tanger',2500,60
+'Boukhalef à              Tanger',2500,50
+Tanger,8000,170
+Tanger,6500,110
+'Malabata à              Tanger',7300,120
+'Route Nationale Assilah (N1) à              Tanger',3000,70
+'Tanger City Center à              Tanger',9000,90
+'Centre à              Tanger',4000,80
+'Centre à              Tanger',7000,120
+'Centre à              Tanger',5500,120
+'De La Plage à              Tanger',6000,50
+'Iberie à              Tanger',11500,180
+'Administratif à              Tanger',6500,105
+Tanger,6000,80
+'Malabata à              Tanger',11000,92
+'Administratif à              Tanger',6800,70
+'Iberie à              Tanger',9000,135
+'Tanger City Center à              Tanger',20000,150
+'Médina à              Tanger',5500,100
+'Centre à              Tanger',10000,100
+'Tanger City Center à              Tanger',12000,130
+'Mozart à              Tanger',6000,100
+'Iberie à              Tanger',13000,150
+'Bella Vista à              Tanger',30000,1000
+'Administratif à              Tanger',7000,100
+'De La Plage à              Tanger',9000,100
+'Malabata à              Tanger',10000,130
+Tanger,7500,122
+'De La Plage à              Tanger',5500,100
+'De La Plage à              Tanger',13000,120
+'Marchan à              Tanger',4500,80
+'De La Plage à              Tanger',6500,127
+'De La Plage à              Tanger',9000,113
+'Centre à              Tanger',7000,116
+'Centre à              Tanger',9000,125
+'Centre à              Tanger',9000,100
+'Centre à              Tanger',14500,160
+'De La Plage à              Tanger',9000,100
+'Jirrari à              Tanger',1400,48
+'Médina à              Tanger',5000,80
+'Charf à              Tanger',5000,90
+'Tanja Balia à              Tanger',4000,68
+'Castilla à              Tanger',5000,85
+'Marjane à              Tanger',5000,80
+'Administratif à              Tanger',4000,85
+'Iberie à              Tanger',13000,140
+'Route Nationale Assilah (N1) à              Tanger',5000,70
+'Bella Vista à              Tanger',13000,140
+'Mozart à              Tanger',12000,355
+'Iberie à              Tanger',6000,90
+'Malabata à              Tanger',8000,75
+'Castilla à              Tanger',4450,83
+'Moujahidine à              Tanger',6200,100
+'Mozart à              Tanger',6800,100
+Tanger,11000,75
+Tanger,4500,70
+Tanger,4000,80
+'Malabata à              Tanger',7000,100
+'Centre à              Tanger',2900,61
+'Iberie à              Tanger',5200,60
+'El Majd à              Tanger',2800,70
+'Malabata à              Tanger',11000,120
+'Administratif à              Tanger',12000,150
+'De La Plage à              Tanger',8500,118
+'Malabata à              Tanger',14000,147
+'Centre à              Tanger',6000,70
+'Administratif à              Tanger',12000,161
+'Malabata à              Tanger',11000,90
+'manar à              Tanger',4200,90
+'Moujahidine à              Tanger',630000,73
+'Administratif à              Tanger',4500,130
+'Mesnana à              Tanger',3500,100
+'De La Plage à              Tanger',9500,105
+'Iberie à              Tanger',14000,165
+'Route Nationale Assilah (N1) à              Tanger',3000,47
+'Route Nationale Assilah (N1) à              Tanger',2800,50
+'Administratif à              Tanger',6000,130
+'Malabata à              Tanger',10400,86
+'Tanger Medina à              Tanger',7000,100
+'Charf Mghougha à              Tanger',6000,65
+'Charf Mghougha à              Tanger',6500,70
+'Malabata à              Tanger',9500,100
+'Du Golf à              Tanger',19000,200
+'Malabata à              Tanger',15000,120
+'De La Plage à              Tanger',2500,40
+'Route Nationale Assilah (N1) à              Tanger',5000,70
+'Marchan à              Tanger',7400,130
+'Mesnana à              Tanger',3000,90
+'Centre à              Tanger',3700,90
+'Administratif à              Tanger',8000,164
+'Malabata à              Tanger',7500,92
+'Centre à              Tanger',10000,143
+'Mozart à              Tanger',10000,175
+'Centre à              Tanger',7000,100
+'Centre à              Tanger',8500,110
+'Administratif à              Tanger',4500,120
+'Iberie à              Tanger',6500,75
+'Marjane à              Tanger',4280,85
+'Marjane à              Tanger',3500,73
+'De La Plage à              Tanger',15000,135
+'Centre à              Tanger',7500,120
+'Iberie à              Tanger',13000,175
+'Mozart à              Tanger',9000,136
+'Hay Hassani à              Tanger',2800,60
+'De La Plage à              Tanger',6000,130
+'Boukhalef à              Tanger',3000,60
+'Centre à              Tanger',5500,75
+Tanger,13000,140
+'Iberie à              Tanger',7500,100
+'Administratif à              Tanger',7000,120
+'Malabata à              Tanger',7000,95
+'Centre à              Tanger',800,70
+'Mghogha à              Tanger',2500,65
+'Centre à              Tanger',5000,65
+'Tanja Balia à              Tanger',1400,45
+'Tanja Balia à              Tanger',1300,55
+'Tanja Balia à              Tanger',2000,80
+'Nzaha à              Tanger',3500,100
+'De La Plage à              Tanger',5500,55
+'Bel Air - Val fleuri à              Tanger',5000,110
+'Marchan à              Tanger',6500,98
+'Marchan à              Tanger',6500,98
+'Charf Mghougha à              Tanger',9000,89
+'Malabata à              Tanger',4500,59
+'Médina à              Tanger',5500,102
+'De La Plage à              Tanger',9000,80
+'Malabata à              Tanger',12000,128
+'Centre à              Tanger',4500,102
+'De La Plage à              Tanger',7000,130
+'Tanger City Center à              Tanger',7500,130
+'Marchan à              Tanger',6000,98
+'Iberie à              Tanger',7500,130
+'Marchan à              Tanger',7200,120
+'Centre à              Tanger',8000,80
+'Malabata à              Tanger',7900,80
+'Hay Hassani à              Tanger',2800,97
+'Tanger City Center à              Tanger',4000,50
+'De La Plage à              Tanger',8500,98
+'De La Plage à              Tanger',5500,100
+'Jirrari à              Tanger',3800,105
+'Administratif à              Tanger',5800,100
+'Route Nationale Assilah (N1) à              Tanger',3500,63
+'Malabata à              Tanger',7500,102
+'Administratif à              Tanger',6500,130
+'Malabata à              Tanger',7000,130
+'De La Plage à              Tanger',8500,100
+'Centre à              Tanger',7500,94
+'Malabata à              Tanger',10000,92
+'Malabata à              Tanger',9000,89
+'Malabata à              Tanger',12000,110
+'Malabata à              Tanger',9000,89
+'Malabata à              Tanger',14000,130
+'Malabata à              Tanger',8500,127
+'Malabata à              Tanger',12000,120
+'Malabata à              Tanger',8500,128
+'Centre à              Tanger',5000,62
+'Malabata à              Tanger',8500,110
+'Centre à              Tanger',10000,139
+'Malabata à              Tanger',9000,110
+'Administratif à              Tanger',6500,110
+'De La Plage à              Tanger',300,70
+'Tanger City Center à              Tanger',7500,60
+'Médina à              Tanger',8500,120
+'Malabata à              Tanger',12000,98
+'Malabata à              Tanger',8000,125
+'Malabata à              Tanger',11000,180
+'Malabata à              Tanger',6000,67
+'Malabata à              Tanger',11000,129
+'Malabata à              Tanger',14000,100
+'Malabata à              Tanger',4500,98
+'Centre à              Tanger',10000,115
+'Malabata à              Tanger',6500,100
+'Malabata à              Tanger',9000,110
+'Malabata à              Tanger',8500,102
+'Malabata à              Tanger',9000,104
+'Malabata à              Tanger',7000,70
+'Centre à              Tanger',6500,157
+'Tanger City Center à              Tanger',6800,100
+'Centre à              Tanger',8000,100
+'Malabata à              Tanger',9000,120
+'Centre à              Tanger',10000,120
+'Iberie à              Tanger',11500,185
+'Centre à              Tanger',11000,100
+'Centre à              Tanger',6500,120
+'Centre à              Tanger',4500,70
+'Malabata à              Tanger',10000,86
+'Malabata à              Tanger',12000,103
+'Malabata à              Tanger',12000,110
+'Malabata à              Tanger',9000,110
+'Malabata à              Tanger',7500,120
+'Malabata à              Tanger',10000,110
+'Route Nationale Assilah (N1) à              Tanger',2800,56
+'Centre à              Tanger',5500,88
+'Marjane à              Tanger',4500,84
+'Centre à              Tanger',4500,105
+'Centre à              Tanger',3800,81
+'Malabata à              Tanger',8500,99
+'Malabata à              Tanger',7000,67
+'Malabata à              Tanger',11000,205
+'Bel Air - Val fleuri à              Tanger',4000,80
+'Administratif à              Tanger',7000,100
+'Marchan à              Tanger',6000,90
+'Centre à              Tanger',2000,35
+'Bel Air - Val fleuri à              Tanger',3600,67
+'Du Golf à              Tanger',4000,75
+'Ahlane à              Tanger',3500,132
+'Centre à              Tanger',7000,159
+'Casabarata à              Tanger',6000,120
+'Lalla Chafia à              Tanger',1950,40
+'Route Nationale Assilah (N1) à              Tanger',2700,56
+'De La Plage à              Tanger',8000,90
+'De La Plage à              Tanger',8000,98
+'Moujahidine à              Tanger',4200,110
+'Centre à              Tanger',6800,90
+'Iberie à              Tanger',7500,142
+'Tanger Medina à              Tanger',6250,120
+'Californie à              Tanger',1300,30
+'Administratif à              Tanger',4000,80
+'Moujahidine à              Tanger',2800,54
+Tanger,8500,40
+'Boukhalef à              Tanger',3000,60
+'Médina à              Tanger',5000,120
+'Nzaha à              Tanger',8000,200
+'Iberie à              Tanger',16500,230
+'Jirrari à              Tanger',3500,160
+'Boukhalef à              Tanger',2600,60
+'Ain El Hayani à              Tanger',8500,170
+'Administratif à              Tanger',6500,146
+'Centre à              Tanger',5000,85
+'Moujahidine à              Tanger',1200,75
+'Tanger City Center à              Tanger',300,70
+'Zone Industrielle Mghogha à              Tanger',2000,56
+'Administratif à              Tanger',4000,90
+'De La Plage à              Tanger',8500,80
+'Mozart à              Tanger',5000,48
+'De La Plage à              Tanger',13000,100
+'manar à              Tanger',10000,116
+'De La Plage à              Tanger',12000,150
+'Administratif à              Tanger',8000,100
+'Mozart à              Tanger',6500,130
+'Centre à              Tanger',14000,150
+'Malabata à              Tanger',20000,200
+'De La Plage à              Tanger',9000,1000
+'Jbel Kbir à              Tanger',12000,300
+'Administratif à              Tanger',6500,140
+'Malabata à              Tanger',7500,70
+'Administratif à              Tanger',10000,180
+'Californie à              Tanger',9000,150
+'Iberie à              Tanger',12000,150
+'Administratif à              Tanger',11000,180
+'Centre à              Tanger',6000,100
+'Centre à              Tanger',6000,100
+'De La Plage à              Tanger',13000,150
+'Médina à              Tanger',6000,115
+'Centre à              Tanger',14000,215
+'Administratif à              Tanger',6000,146
+'Iberie à              Tanger',6500,100
+'Centre à              Tanger',6000,120
+'Iberie à              Tanger',12000,150
+'De La Plage à              Tanger',7000,100
+'Centre à              Tanger',8000,100
+'Marjane à              Tanger',4000,90
+'Centre à              Tanger',8500,100
+'Médina à              Tanger',10000,80
+'Iberie à              Tanger',12900,125
+'Centre à              Tanger',6000,80
+'De La Plage à              Tanger',4000,50
+Tanger,5500,120
+'Iberie à              Tanger',8000,142
+'Administratif à              Tanger',6000,120
+'Malabata à              Tanger',13000,168
+'Centre à              Tanger',5000,100
+'Centre à              Tanger',3500,95
+'Centre à              Tanger',6000,80
+'Administratif à              Tanger',14000,160
+'Centre à              Tanger',11000,118
+'Cap Spartel à              Tanger',3100,66
+'Boukhalef à              Tanger',2600,60
+'Malabata à              Tanger',35000,184
+Tanger,7000,112
+'Malabata à              Tanger',13000,104
+'Malabata à              Tanger',13000,110
+'Malabata à              Tanger',13500,130
+'Malabata à              Tanger',9000,124
+'Branes 2 à              Tanger',2300,60
+'Malabata à              Tanger',7500,140
+Tanger,8000,75
+'Iberie à              Tanger',6000,125
+'Californie à              Tanger',20000,800
+'De La Plage à              Tanger',7500,100
+'Iberie à              Tanger',12000,120
+'Moujahidine à              Tanger',5000,75
+'Malabata à              Tanger',10000,120
+'De La Plage à              Tanger',12000,103
+'Centre à              Tanger',5500,89
+'Malabata à              Tanger',11000,95
+'Centre à              Tanger',4500,80
+'Centre à              Tanger',8000,14
+'De La Plage à              Tanger',6000,80
+'Marchan à              Tanger',10000,130
+Tanger,10000,135
+'Centre à              Tanger',4500,120
+'Castilla à              Tanger',3500,140
+'Administratif à              Tanger',6000,100
+'Iberie à              Tanger',14000,145
+'De La Plage à              Tanger',12500,110
+'Centre à              Tanger',5000,147
+'Iberie à              Tanger',7000,120
+'Centre à              Tanger',7000,180
+'Administratif à              Tanger',6000,140
+'De La Plage à              Tanger',8500,160
+'De La Plage à              Tanger',12000,120
+'Administratif à              Tanger',4000,80
+'Centre à              Tanger',4500,90
+'Malabata à              Tanger',13000,103
+'Tanja Balia à              Tanger',1900,56
+'Médina à              Tanger',7000,140
+'Mesnana à              Tanger',3200,75
+'Mozart à              Tanger',6000,115
+'Tanger City Center à              Tanger',7500,80
+'Mesnana à              Tanger',4900,95
+'Tanja Balia à              Tanger',2000,75
+'Centre à              Tanger',4000,80
+'Centre à              Tanger',4500,110
+Tanger,5500,130
+'Centre à              Tanger',9000,140
+'Centre à              Tanger',6000,91
+'Centre à              Tanger',4000,80
+'Mesnana à              Tanger',3500,70
+'Branes 2 à              Tanger',2300,60
+'Branes 2 à              Tanger',4400,120
+'Branes 2 à              Tanger',3800,120
+'Centre à              Tanger',8700,120
+'Malabata à              Tanger',10000,110
+'Centre à              Tanger',5300,120
+'Malabata à              Tanger',6900,93
+'Centre à              Tanger',12000,93
+'Centre à              Tanger',9000,75
+'Centre à              Tanger',7800,120
+'Castilla à              Tanger',10000,170
+'Mesnana à              Tanger',3500,70
+'Marchan à              Tanger',4500,40
+'De La Plage à              Tanger',14000,114
+'Castilla à              Tanger',6500,125
+'Centre à              Tanger',6500,100
+'Charf à              Tanger',13000,180
+'Tanja Balia à              Tanger',3700,65
+'Du Golf à              Tanger',13000,125
+'Mozart à              Tanger',7000,100
+'De La Plage à              Tanger',300,70
+'Malabata à              Tanger',10000,75
+'Malabata à              Tanger',14000,150
+'Marjane à              Tanger',3900,78
+'Centre à              Tanger',4000,70
+'Hay Hassani à              Tanger',3300,74
+'Administratif à              Tanger',4000,124
+'Mozart à              Tanger',7000,120
+'Moujahidine à              Tanger',1200,70
+'De La Plage à              Tanger',8000,120
+'Bel Air - Val fleuri à              Tanger',5500,85
+'Centre à              Tanger',6000,100
+'Mozart à              Tanger',4500,50
+'Mozart à              Tanger',4500,50
+'Castilla à              Tanger',7000,180
+'Mghogha à              Tanger',2200,50
+'Marjane à              Tanger',3700,85
+'Iberie à              Tanger',6500,90
+'Centre à              Tanger',5500,85
+'Centre à              Tanger',4500,75
+'Centre à              Tanger',11000,120
+'Centre à              Tanger',12000,150
+Tanger,7500,100
+'Administratif à              Tanger',8500,215
+'De La Plage à              Tanger',2500,48
+'Zouitina à              Tanger',2800,56
+'Iberie à              Tanger',8000,113
+'Iberie à              Tanger',5000,110
+'De La Plage à              Tanger',4500,90
+'Marchan à              Tanger',6500,120
+'Centre à              Tanger',6500,85
+'Moujahidine à              Tanger',3500,62
+'De La Plage à              Tanger',300,80
+'De La Plage à              Tanger',300,80
+'De La Plage à              Tanger',8000,80
+'Marjane à              Tanger',6000,104
+'Aouama Gharbia à              Tanger',2500,80
+'Tanger City Center à              Tanger',12000,150
+'Mesnana à              Tanger',3500,70
+'Casabarata à              Tanger',3500,120
+'Centre à              Tanger',4000,84
+'Médina à              Tanger',4900,120
+'Centre à              Tanger',3200,62
+'Malabata à              Tanger',15000,126
+'Administratif à              Tanger',5500,130
+'Malabata à              Tanger',20000,240
+'De La Plage à              Tanger',7000,117
+'Hay Zaoudia à              Tanger',3000,100
+'Centre à              Tanger',3850,84
+'Drissia à              Tanger',7000,117
+'Centre à              Tanger',10000,135
+'Centre à              Tanger',6000,85
+'Boukhalef à              Tanger',3000,65
+'Marjane à              Tanger',4000,86
+'Moujahidine à              Tanger',1200,75
+'Moujahidine à              Tanger',1200,75
+'Administratif à              Tanger',3000,50
+'Mesnana à              Tanger',3700,70
+'Centre à              Tanger',7000,100
+Tanger,6500,170
+'Centre à              Tanger',6500,150
+'Centre à              Tanger',11500,203
+'Marchan à              Tanger',5000,70
+'Malabata à              Tanger',7500,120
+'Castilla à              Tanger',3500,92
+'Iberie à              Tanger',5500,70
+'Branes 2 à              Tanger',3000,120
+'Branes 2 à              Tanger',4000,150
+'Charf à              Tanger',6800,95
+'Malabata à              Tanger',7500,67
+'Centre à              Tanger',5500,120
+'Administratif à              Tanger',6500,80
+'Mozart à              Tanger',6500,100
+'De La Plage à              Tanger',7500,100
+'Médina à              Tanger',5000,80
+'Marjane à              Tanger',3500,65
+'Centre à              Tanger',4000,56
+'Malabata à              Tanger',5000,65
+'Centre à              Tanger',4200,60
+'Malabata à              Tanger',5500,100
+'Médina à              Tanger',8500,121
+'Centre à              Tanger',6500,114
+'De La Plage à              Tanger',10000,103
+'Médina à              Tanger',5000,65
+'Centre à              Tanger',7500,160
+'Centre à              Tanger',5500,89
+'Centre à              Tanger',5000,115
+'Iberie à              Tanger',12500,200
+'Iberie à              Tanger',4300,80
+'De La Plage à              Tanger',8500,80
+'Iberie à              Tanger',8000,111
+'Centre à              Tanger',4000,84
+'Jbel Kbir à              Tanger',14000,225
+Tanger,18000,200
+'Centre à              Tanger',4000,88
+'Centre à              Tanger',4500,85
+'Malabata à              Tanger',15000,126
+'Centre à              Tanger',4000,80
+'Centre à              Tanger',5300,200
+'Aharrarine à              Tanger',2000,65
+'Marjane à              Tanger',6500,100
+'Malabata à              Tanger',11000,112
+'Marjane à              Tanger',4800,120
+'Route Nationale Assilah (N1) à              Tanger',3500,80
+'Mozart à              Tanger',5000,100
+'Mozart à              Tanger',4000,60
+'Administratif à              Tanger',8000,177
+'Marchan à              Tanger',13500,100
+'Boukhalef à              Tanger',3500,57
+'Marchan à              Tanger',14000,106
+'Mesnana à              Tanger',2200,90
+'Malabata à              Tanger',20000,240
+'Mozart à              Tanger',6000,120
+'Marchan à              Tanger',4500,48
+'De La Plage à              Tanger',7000,55
+'Centre à              Tanger',11000,90
+'Administratif à              Tanger',7500,140
+'Administratif à              Tanger',7000,100
+'De La Plage à              Tanger',13000,200
+'Tanja Balia à              Tanger',6000,100
+'Route Nationale Assilah (N1) à              Tanger',3500,56
+'Boukhalef à              Tanger',3500,80
+'Iberie à              Tanger',12000,150
+'Moujahidine à              Tanger',3500,85
+'Msala à              Tanger',3500,119
+'Mesnana à              Tanger',2900,70
+'Centre à              Tanger',8300,120
+Tanger,13000,92
+'Malabata à              Tanger',13000,90
+'Malabata à              Tanger',8000,94
+'Malabata à              Tanger',15500,130
+'Marjane à              Tanger',5000,100
+'Centre à              Tanger',9500,80
+'Administratif à              Tanger',5000,140
+'Iberie à              Tanger',10000,95
+'Malabata à              Tanger',6000,115
+'Achakar à              Tanger',16000,180
+'Tanger Medina à              Tanger',16000,180
+'Achakar à              Tanger',13000,160
+'Achakar à              Tanger',16000,180
+'Malabata à              Tanger',7200,100
+'Iberie à              Tanger',7200,120
+'Iberie à              Tanger',12500,220
+'Malabata à              Tanger',300,70
+'Tanja Balia à              Tanger',6000,120
+'Branes 1 à              Tanger',4000,80
+'Castilla à              Tanger',3800,116
+'Malabata à              Tanger',13000,90
+'Malabata à              Tanger',10000,100
+Tanger,7300,80
+'Iberie à              Tanger',10000,140
+'Moujahidine à              Tanger',1200,75
+'Iberie à              Tanger',7000,130
+'Centre à              Tanger',10000,180
+'Iberie à              Tanger',11000,170
+'Centre à              Tanger',6000,89
+'Malabata à              Tanger',12500,148
+'Centre à              Tanger',5000,50
+'Marchan à              Tanger',11000,200
+'Tanger City Center à              Tanger',3002,75
+Tanger,6500,60
+Tanger,9200,118
+'Malabata à              Tanger',13500,220
+'Jbel Kbir à              Tanger',1500,100
+'Marjane à              Tanger',250,60
+'Branes 2 à              Tanger',3300,140
+'Administratif à              Tanger',2000,35
+'Administratif à              Tanger',2400,45
+'Centre à              Tanger',6000,135
+'Administratif à              Tanger',2600,55
+'Bel Air - Val fleuri à              Tanger',3500,55
+'Boukhalef à              Tanger',3500,64
+'Centre à              Tanger',10000,180
+'Du Golf à              Tanger',4500,75
+'De La Plage à              Tanger',5000,65
+'manar à              Tanger',1300,90
+'Administratif à              Tanger',8000,90
+'Casabarata à              Tanger',7000,176
+'Administratif à              Tanger',11000,144
+'Marchan à              Tanger',5300,108
+'Tanger Medina à              Tanger',15000,250
+'Tanger Medina à              Tanger',10000,137
+'Marchan à              Tanger',25000,200
+Tanger,10000,111
+'Achakar à              Tanger',18000,220
+'Achakar à              Tanger',13000,160
+'Centre à              Tanger',12000,80
+'Moujahidine à              Tanger',3500,118
+'Tanja Balia à              Tanger',2800,60
+'Centre à              Tanger',4200,92
+'Centre à              Tanger',7500,90
+'Centre à              Tanger',4000,90
+'Drissia à              Tanger',270,55
+'Administratif à              Tanger',400,100
+'Tanja Balia à              Tanger',3300,53
+'Malabata à              Tanger',12000,94
+'Bella Vista à              Tanger',14000,120
+'Centre à              Tanger',6000,100
+'Boukhalef à              Tanger',1700,60
+'Castilla à              Tanger',6000,116
+'Centre à              Tanger',5000,120
+'Centre à              Tanger',6000,90
+'Centre à              Tanger',5000,70
+'Branes 2 à              Tanger',3300,140
+'Centre à              Tanger',3500,95
+'Centre à              Tanger',2600,50
+Tanger,15000,210
+'Iberie à              Tanger',14000,200
+'De La Plage à              Tanger',8000,124
+'Tanger City Center à              Tanger',800,100
+'Hay Hassani à              Tanger',3500,65
+Tanger,10000,200
+'Iberie à              Tanger',10000,205
+'Malabata à              Tanger',13000,124
+'Casabarata à              Tanger',2500,70
+'De La Plage à              Tanger',15000,176
+'Médina à              Tanger',7000,90
+'Tanja Balia à              Tanger',2500,60
+'Iberie à              Tanger',10000,220
+'Al Warda à              Tanger',1300,45
+'Malabata à              Tanger',11000,90
+'Malabata à              Tanger',11000,90
+'Iberie à              Tanger',10000,159
+'Iberie à              Tanger',12000,130
+'Msala à              Tanger',6000,140
+'Hanaa 3 - Soussi à              Tanger',400,85
+'Tanja Balia à              Tanger',8000,128
+'Centre à              Tanger',7500,210
+'Iberie à              Tanger',13000,190
+'Centre à              Tanger',14000,200
+'Marchan à              Tanger',4500,107
+'Tanger City Center à              Tanger',8200,75
+'Tanger City Center à              Tanger',6500,96
+'Tanger City Center à              Tanger',5700,64
+'Marchan à              Tanger',7000,65
+'Administratif à              Tanger',5500,77
+'Centre à              Tanger',8500,87
+'Tanja Balia à              Tanger',3500,100
+'De La Plage à              Tanger',16500,164
+'Iberie à              Tanger',6500,130
+'Malabata à              Tanger',15500,129
+'Centre à              Tanger',7000,70
+'Tanger City Center à              Tanger',500,100
+Tanger,25000,270
+'Centre à              Tanger',4000,116
+'Branes 2 à              Tanger',4200,120
+'Centre à              Tanger',1800,80
+'Centre à              Tanger',5000,100
+Tanger,15500,180
+'Centre à              Tanger',6000,90
+'Malabata à              Tanger',12000,87
+'Administratif à              Tanger',4500,136
+'Beni Touzine à              Tanger',2500,80
+'Marchan à              Tanger',7500,70
+Tanger,16000,200
+'Marchan à              Tanger',7000,110
+'Iberie à              Tanger',12500,180
+'Iberie à              Tanger',7000,100
+'Iberie à              Tanger',5500,100
+'Administratif à              Tanger',7000,100
+Tanger,40000,151
+'Centre à              Tanger',8000,110
+'Tanger City Center à              Tanger',6500,128
+'De La Plage à              Tanger',6500,70
+'Centre à              Tanger',10000,174
+Tanger,8000,120
+'Route Nationale Assilah (N1) à              Tanger',3800,80
+'Malabata à              Tanger',6500,60
+'Centre à              Tanger',11500,215
+Tanger,15000,124
+'Achakar à              Tanger',13000,150
+'Marjane à              Tanger',6500,83
+'Moujahidine à              Tanger',4300,80
+'Centre à              Tanger',4300,80
+'Ain El Hayani à              Tanger',3000,90
+'Centre à              Tanger',5000,140
+'Achakar à              Tanger',12000,154
+'Boukhalef à              Tanger',3000,57
+'Centre à              Tanger',8000,160
+Tanger,7000,126
+'Iberie à              Tanger',7500,128
+'Zemmouri à              Tanger',6000,116
+'Centre à              Tanger',11000,130
+'Malabata à              Tanger',13000,140
+Tanger,12000,180
+'Centre à              Tanger',600,60
+'Msala à              Tanger',6000,118
+'Iberie à              Tanger',15000,230
+'Tanja Balia à              Tanger',2000,56
+'Achennad à              Tanger',4500,70
+'Malabata à              Tanger',8000,90
+'Malabata à              Tanger',11500,100
+'Port Tanger ville à              Tanger',4000,98
+'Malabata à              Tanger',13000,103
+'Iberie à              Tanger',12500,220
+'Centre à              Tanger',10500,130
+'Centre à              Tanger',8000,160
+'Beni Touzine à              Tanger',1300,65
+'Beni Touzine à              Tanger',1300,65
+'Centre à              Tanger',6000,63
+'Centre à              Tanger',600,150
+'Dher Lahmam à              Tanger',3000,80
+'Centre à              Tanger',4300,100
+'Administratif à              Tanger',3500,80
+'De La Plage à              Tanger',7500,140
+'Marjane à              Tanger',6000,94
+'Ahlane à              Tanger',2500,100
+'Centre à              Tanger',3000,80
+'De La Plage à              Tanger',8000,160
+'Branes 2 à              Tanger',5000,120
+'Branes 2 à              Tanger',2500,60
+'Moujahidine à              Tanger',12000,172
+'El Mers 1 à              Tanger',1300,56
+'Du Golf à              Tanger',10000,160
+'Tanger City Center à              Tanger',7000,70
+'Iberie à              Tanger',6000,60
+'Bella Vista à              Tanger',13000,120
+'Malabata à              Tanger',12000,100
+'Malabata à              Tanger',10000,100
+'Charf à              Tanger',7500,100
+'Iberie à              Tanger',8000,130
+'Centre à              Tanger',11000,120
+'Centre à              Tanger',15000,129
+Tanger,6000,83
+Tanger,5500,78
+'Du Golf à              Tanger',4500,80
+'Centre à              Tanger',7500,90
+'Malabata à              Tanger',6500,80
+Tanger,6500,90
+'Malabata à              Tanger',12000,100
+'Malabata à              Tanger',10500,130
+'Malabata à              Tanger',12000,120
+'Malabata à              Tanger',8000,120
+'Malabata à              Tanger',14500,120
+'Charf à              Tanger',9000,100
+Tanger,12000,160
+'Iberie à              Tanger',10000,140
+'Al Anbar à              Tanger',14000,160
+'Iberie à              Tanger',10000,130
+'Centre à              Tanger',9000,140
+'Malabata à              Tanger',14000,120
+'Administratif à              Tanger',6000,120
+'Marchan à              Tanger',8000,110
+'Malabata à              Tanger',10000,135
+'Iberie à              Tanger',12000,160
+Tanger,11000,120
+'Iberie à              Tanger',10400,140
+'Mozart à              Tanger',9000,110
+'Malabata à              Tanger',6500,80
+'Centre à              Tanger',11000,110
+'Jbel Kbir à              Tanger',25000,200
+Tanger,8500,110
+'Centre à              Tanger',6800,110
+Tanger,2000,60
+'Malabata à              Tanger',6500,100
+'Centre à              Tanger',6500,110
+'Marjane à              Tanger',5500,90
+'Centre à              Tanger',8700,126
+'Centre à              Tanger',6000,90
+'Jbel Kbir à              Tanger',14000,150
+'Malabata à              Tanger',6500,80
+'Iberie à              Tanger',20000,240
+'Iberie à              Tanger',15000,130
+'Centre à              Tanger',11000,144
+'Malabata à              Tanger',8500,120
+'Bel Air - Val fleuri à              Tanger',15000,129
+'Malabata à              Tanger',15000,120
+'Malabata à              Tanger',11500,130
+'Malabata à              Tanger',15000,120
+'Malabata à              Tanger',17000,150
+'Malabata à              Tanger',13000,120
+'Tanger City Center à              Tanger',8500,100
+'Malabata à              Tanger',10000,90
+'Centre à              Tanger',8500,100
+'Iberie à              Tanger',5800,60
+'Iberie à              Tanger',5900,60
+Tanger,6000,90
+'Centre à              Tanger',17000,140
+'Iberie à              Tanger',17500,135
+'Administratif à              Tanger',5800,100
+'Charf à              Tanger',7500,130
+'Malabata à              Tanger',13000,100
+'Malabata à              Tanger',12000,105
+'Malabata à              Tanger',15000,120
+'Marjane à              Tanger',5500,100
+'Centre à              Tanger',9000,100
+'Centre à              Tanger',8500,120
+'Bella Vista à              Tanger',10000,100
+'Moujahidine à              Tanger',10000,160
+'Centre à              Tanger',6800,105
+'Malabata à              Tanger',14000,120
+Tanger,4700,80
+'Centre à              Tanger',8000,90
+Tanger,5500,100
+'Malabata à              Tanger',8500,120
+'Centre à              Tanger',7000,120
+'Malabata à              Tanger',6500,90
+'Iberie à              Tanger',10000,130
+'Administratif à              Tanger',5000,145
+'Iberie à              Tanger',9000,95
+'Centre à              Tanger',11000,160
+'Malabata à              Tanger',13000,130
+'Centre à              Tanger',11000,150
+'Marjane à              Tanger',7500,120
+'Marjane à              Tanger',5000,100
+'Marjane à              Tanger',4000,105
+Tanger,15000,163
+'Centre à              Tanger',5000,80
+'Iberie à              Tanger',15000,200
+'Iberie à              Tanger',6500,95
+'Centre à              Tanger',4500,80
+'Marjane à              Tanger',7500,145
+'Centre à              Tanger',10000,140
+'Malabata à              Tanger',7000,80
+Tanger,5000,75
+'Charf à              Tanger',8500,90
+'Malabata à              Tanger',14000,140
+'Iberie à              Tanger',14000,140
+'Administratif à              Tanger',9000,100
+Tanger,11000,100
+'Iberie à              Tanger',9500,150
+'Malabata à              Tanger',15000,140
+Tanger,7000,142
+'Iberie à              Tanger',6500,90
+'Iberie à              Tanger',13000,130
+'Iberie à              Tanger',12000,130
+'Malabata à              Tanger',7000,7000
+Tanger,8800,140
+'Administratif à              Tanger',14000,155
+'Iberie à              Tanger',8000,110
+'Centre à              Tanger',9500,140
+'Centre à              Tanger',8500,145
+'Malabata à              Tanger',7000,80
+'Centre à              Tanger',7000,100
+'Centre à              Tanger',7500,80
+'Malabata à              Tanger',30000,300
+'Achakar à              Tanger',15000,150
+'Malabata à              Tanger',8500,140
+'Achakar à              Tanger',16000,150
+'Achakar à              Tanger',14500,150
+'Californie à              Tanger',30000,30000
+Tanger,15000,150
+'Administratif à              Tanger',15000,150
+Tanger,6000,90
+'Centre à              Tanger',7000,100
+'Achakar à              Tanger',15000,150
+Tanger,6000,130
+'Centre à              Tanger',4800,100
+'Centre à              Tanger',5500,100
+'Centre à              Tanger',4700,90
+'Centre à              Tanger',5500,120
+'Centre à              Tanger',15000,129
+'Centre à              Tanger',4500,99
+'Centre à              Tanger',6000,55
+'Malabata à              Tanger',6700,81
+'Centre à              Tanger',12000,120
+Tanger,6500,85
+'Centre à              Tanger',8000,120
+'Centre à              Tanger',4800,85
+'Malabata à              Tanger',8000,100
+'Malabata à              Tanger',11000,100
+'Centre à              Tanger',7500,120
+'Tanger City Center à              Tanger',7500,55
+'Administratif à              Tanger',15000,120
+'Centre à              Tanger',15000,129
+'Malabata à              Tanger',14000,120
+'Malabata à              Tanger',14000,120
+'Malabata à              Tanger',11000,120
+'Administratif à              Tanger',7500,147
+'Centre à              Tanger',6800,120
+'Tanger City Center à              Tanger',6000,70
+'Centre à              Tanger',10000,120
+'Tanger City Center à              Tanger',9000,90
+'Malabata à              Tanger',7000,100
+'Malabata à              Tanger',9000,80
+Tanger,6000,120
+'Du Golf à              Tanger',12500,170
+Tanger,7000,120
+Tanger,9000,130
+'Malabata à              Tanger',10700,120
+Tanger,15000,120
+'Malabata à              Tanger',10000,130
+'Tanger City Center à              Tanger',7500,55
+'Administratif à              Tanger',6500,70
+'Administratif à              Tanger',6500,70
+'Centre à              Tanger',10000,90
+'Iberie à              Tanger',14500,140
+'Centre à              Tanger',7500,145
+'Centre à              Tanger',4800,90
+Tanger,8500,100
+'Administratif à              Tanger',4500,140
+Tanger,4500,80
+'Malabata à              Tanger',6500,80
+'Centre à              Tanger',6500,90
+Tanger,8000,110
+'Malabata à              Tanger',9000,184
+Tanger,9000,100
+'Malabata à              Tanger',16000,120
+'Marjane à              Tanger',3000,80
+Tanger,16000,160
+'Centre à              Tanger',5000,80
+'Malabata à              Tanger',8500,100
+Tanger,7500,92
+'Azib Haj Kaddour à              Tanger',16000,150
+'Centre à              Tanger',15000,153
+'Malabata à              Tanger',10000,105
+'Azib Haj Kaddour à              Tanger',15000,130
+'Centre à              Tanger',4500,85
+'Administratif à              Tanger',15000,190
+'Tanger City Center à              Tanger',7500,55
+'Tanger City Center à              Tanger',11000,130
+'Malabata à              Tanger',12000,120
+'Administratif à              Tanger',5000,70
+'Tanger City Center à              Tanger',10000,80
+'Centre à              Tanger',2000,65
+'Marjane à              Tanger',2100,70
+'Tanja Balia à              Tanger',3500,94
+'Centre à              Tanger',4000,80
+'Mesnana à              Tanger',2100,70
+'Malabata à              Tanger',13000,100
+'Centre à              Tanger',1900,34
+'Centre à              Tanger',1900,34
+'Mesnana à              Tanger',2200,65
+'Mesnana à              Tanger',2200,65
+'Centre à              Tanger',2000,36
+'Boukhalef à              Tanger',1900,60
+'Centre à              Tanger',4500,80
+'Mozart à              Tanger',5000,87
+'Gourziana à              Tanger',120,56
+Tanger,7500,134
+Tanger,5000,98
+'Boukhalef à              Tanger',3500,80
+'Boukhalef à              Tanger',3500,80
+'Branes 1 à              Tanger',2800,60
+'Centre à              Tanger',4000,80
+'Branes 2 à              Tanger',5000,115
+'Tanja Balia à              Tanger',5000,100
+'Draoua à              Tanger',2000,60
+'Draoua à              Tanger',1000,40
+'El Baraka à              Tanger',1300,56
+'Marjane à              Tanger',5500,86
+'Mesnana à              Tanger',3400,70
+'Centre à              Tanger',9000,150
+Tanger,9000,120
+'Bel Air - Val fleuri à              Tanger',4700,80
+'Centre à              Tanger',7000,160
+'Malabata à              Tanger',10000,84
+'Malabata à              Tanger',15000,105
+'De La Plage à              Tanger',14000,110
+'Malabata à              Tanger',13000,103
+'Malabata à              Tanger',13000,130
+'Centre à              Tanger',400,120
+'Centre à              Tanger',3200,70
+'Iberie à              Tanger',7500,135
+'Port Tanger ville à              Tanger',600,100
+'Centre à              Tanger',7500,104
+'Centre à              Tanger',3200,70
+'Bella Vista à              Tanger',12000,105
+'De La Plage à              Tanger',10000,67
+'Jirrari à              Tanger',800,40
+'Jirrari à              Tanger',800,40
+'Mesnana à              Tanger',2900,85
+'Iberie à              Tanger',12000,205
+'Route Nationale Assilah (N1) à              Tanger',2200,54
+'Centre à              Tanger',4700,81
+'Route Nationale Assilah (N1) à              Tanger',3200,71
+'Centre à              Tanger',4800,80
+'Centre à              Tanger',5400,97
+'Centre à              Tanger',15000,158
+'De La Plage à              Tanger',14000,103
+'De La Plage à              Tanger',10000,97
+Tanger,25000,310
+'Marjane à              Tanger',250,60
+'Centre à              Tanger',5000,120
+'Jirrari à              Tanger',1800,98
+'Administratif à              Tanger',10000,149
+'Sania à              Tanger',13000,100
+Tanger,9500,185
+'Centre à              Tanger',5000,134
+'Tanja Balia à              Tanger',3000,53
+'Centre à              Tanger',6000,105
+'Moujahidine à              Tanger',3500,80
+'Centre à              Tanger',7500,85
+'Malabata à              Tanger',15000,140
+'Malabata à              Tanger',12000,183
+'Malabata à              Tanger',18000,140
+'Iberie à              Tanger',15000,247
+Tanger,7800,80
+Tanger,7800,80
+'Administratif à              Tanger',7000,104
+'Marjane à              Tanger',6000,90
+'Malabata à              Tanger',10000,75
+Tanger,9700,160
+'Centre à              Tanger',7000,108
+'Malabata à              Tanger',9000,130
+Tanger,10000,155
+'Centre à              Tanger',5000,65
+Tanger,18000,320
+Tanger,18000,220
+'Marchan à              Tanger',7500,65
+'Administratif à              Tanger',7000,107
+'Iberie à              Tanger',10000,120
+'Malabata à              Tanger',9000,67
+'Malabata à              Tanger',14000,180
+Tanger,7000,100
+Tanger,12500,124
+'Tanger City Center à              Tanger',6500,120
+Tanger,8500,100
+Tanger,12000,160
+Tanger,15000,183
+Tanger,6500,129
+Tanger,6500,129
+'Malabata à              Tanger',10000,120
+Tanger,4000,45
+'Centre à              Tanger',7500,102
+'Centre à              Tanger',8000,100
+'Centre à              Tanger',8500,72
+'Centre à              Tanger',15000,125
+'De La Plage à              Tanger',20000,210
+'Achakar à              Tanger',13000,160
+'Centre à              Tanger',6000,170
+'Centre à              Tanger',7000,180
+Tanger,13500,130
+'Centre à              Tanger',10000,152
+'Mozart à              Tanger',8000,185
+Tanger,11000,200
+'Malabata à              Tanger',9000,150
+Tanger,8000,105
+'Jbel Kbir à              Tanger',7000,120
+'Malabata à              Tanger',8500,104
+'Castilla à              Tanger',4000,110
+'Malabata à              Tanger',13000,90
+'Centre à              Tanger',6000,125
+'Malabata à              Tanger',13700,130
+Tanger,8000,116
+Tanger,8500,100
+'Tanger Medina à              Tanger',8500,97
+'Malabata à              Tanger',15000,150
+'Centre à              Tanger',6500,110
+Tanger,4500,90
+'Iberie à              Tanger',10000,150
+'Centre à              Tanger',10000,170
+'Iberie à              Tanger',9000,190
+'Malabata à              Tanger',9000,120
+'Malabata à              Tanger',8000,65
+'Centre à              Tanger',9500,140
+'Malabata à              Tanger',15000,140
+'Centre à              Tanger',10000,171
+'Administratif à              Tanger',13000,260
+'Malabata à              Tanger',12000,75
+'Centre à              Tanger',7500,107
+Tanger,6500,107
+'Malabata à              Tanger',14500,80
+'Centre à              Tanger',10000,100
+'Malabata à              Tanger',7000,110
+'Malabata à              Tanger',13000,150
+'Centre à              Tanger',6000,82
+'Du Golf à              Tanger',13000,126
+'Centre à              Tanger',6000,106
+Tanger,12000,140
+'De La Plage à              Tanger',4800,95
+'Centre à              Tanger',8500,180
+'Centre à              Tanger',7000,120
+'Iberie à              Tanger',8300,135
+'Centre à              Tanger',10000,90
+'Centre à              Tanger',4500,45
+'Centre à              Tanger',8000,120
+Tanger,16600,145
+'Centre à              Tanger',11000,120
+Tanger,8000,145
+'Médina à              Tanger',5500,89
+'Administratif à              Tanger',7500,180
+Tanger,7000,84
+Tanger,9500,85
+Tanger,8000,126
+'Marchan à              Tanger',6500,65
+'Malabata à              Tanger',5500,94
+'Administratif à              Tanger',9000,132
+'Centre à              Tanger',11000,300
+'Centre à              Tanger',7000,105
+'Centre à              Tanger',9000,80
+'Centre à              Tanger',22000,322
+'Centre à              Tanger',22000,307
+Tanger,12000,200
+'Castilla à              Tanger',4000,100
+'Iberie à              Tanger',8500,154
+'Centre à              Tanger',7500,120
+'Iberie à              Tanger',8500,158
+'Administratif à              Tanger',6400,98
+'Centre à              Tanger',13000,172
+'Centre à              Tanger',10000,130
+'Tanger City Center à              Tanger',7500,67
+'Centre à              Tanger',8300,165
+'De La Plage à              Tanger',8000,124
+'Centre à              Tanger',6500,93
+'Administratif à              Tanger',7500,130
+Tanger,16000,220
+'Iberie à              Tanger',15000,221
+'Administratif à              Tanger',8000,100
+'Centre à              Tanger',7500,130
+Tanger,6500,120
+'Marchan à              Tanger',9000,120
+'Centre à              Tanger',16000,280
+'Star Hill à              Tanger',6800,180
+'manar à              Tanger',14000,128
+'Centre à              Tanger',8500,87
+'Centre à              Tanger',13000,130
+'Administratif à              Tanger',15000,330
+'Malabata à              Tanger',15000,130
+Tanger,6000,78
+'Du Golf à              Tanger',14000,100
+'Centre à              Tanger',6000,80
+'Centre à              Tanger',9500,90
+'Malabata à              Tanger',8000,102
+'Centre à              Tanger',8000,110
+'Malabata à              Tanger',11000,250
+'Centre à              Tanger',9000,90
+'Centre à              Tanger',7500,130
+'Centre à              Tanger',8500,140
+'Centre à              Tanger',6500,120
+'De La Plage à              Tanger',6000,74
+'Iberie à              Tanger',7000,80
+'Centre à              Tanger',8500,99
+'Centre à              Tanger',6000,64
+'Centre à              Tanger',8000,192
+'Centre à              Tanger',5500,114
+'Centre à              Tanger',12000,124
+'Centre à              Tanger',4500,80
+'Centre à              Tanger',5500,78
+'Centre à              Tanger',12000,93
+'Centre à              Tanger',5000,87
+'Bel Air - Val fleuri à              Tanger',7000,90
+'Centre à              Tanger',10000,144
+'Centre à              Tanger',8000,150
+'Centre à              Tanger',9000,104
+'Marjane à              Tanger',6500,92
+'Centre à              Tanger',8000,124
+'Centre à              Tanger',6000,86
+'Centre à              Tanger',6000,100
+'Centre à              Tanger',11000,257
+'Centre à              Tanger',7500,85
+'De La Plage à              Tanger',8000,170
+'Centre à              Tanger',7200,120
+'Achakar à              Tanger',8500,100
+'Centre à              Tanger',6000,75
+'Centre à              Tanger',9000,90
+'Marjane à              Tanger',5200,93
+'Malabata à              Tanger',14000,100
+'Centre à              Tanger',6000,70
+'Centre à              Tanger',5800,64
+'Centre à              Tanger',15000,146
+'Centre à              Tanger',7000,110
+'Centre à              Tanger',7000,80
+'Centre à              Tanger',5500,110
+'Centre à              Tanger',8000,96
+'Centre à              Tanger',5500,110
+'manar à              Tanger',16000,103
+'Centre à              Tanger',11000,100
+'Centre à              Tanger',5500,130
+'Marjane à              Tanger',5500,98
+'Centre à              Tanger',10000,115
+'Centre à              Tanger',5500,110
+'Centre à              Tanger',8000,152
+'Iberie à              Tanger',6500,129
+'Centre à              Tanger',7000,135
+'De La Plage à              Tanger',8000,149
+'Administratif à              Tanger',10000,133
+'Centre à              Tanger',5000,70
+'Centre à              Tanger',6500,64
+'Iberie à              Tanger',20000,220
+'De La Plage à              Tanger',12000,90
+'Marjane à              Tanger',6000,145
+'Achakar à              Tanger',16000,233
+'Centre à              Tanger',8000,110
+'Charf Souani à              Tanger',4200,135
+'Tanger Medina à              Tanger',4500,55
+Tanger,5500,70
+Tanger,8000,115
+Tanger,8000,174
+'Tanger Medina à              Tanger',8000,70
+Tanger,6000,96
+'Tanger Medina à              Tanger',7500,210
+'Charf Mghougha à              Tanger',8000,150
+'Tanger Medina à              Tanger',6000,100
+Tanger,8000,140
+'Charf Mghougha à              Tanger',8000,110
+Tanger,6500,100
+'Tanger Medina à              Tanger',10000,128
+Tanger,7400,80
+Tanger,8000,90
+'Tanger Medina à              Tanger',10000,175
+Tanger,7500,95
+'Tanger Medina à              Tanger',8500,65
+Tanger,8000,120
+'Tanger Medina à              Tanger',9000,140
+Tanger,13500,136
+Tanger,7000,123
+'Tanger Medina à              Tanger',6000,75
+'Tanger Medina à              Tanger',6500,90
+'Tanger Medina à              Tanger',6500,120
+Tanger,6500,110
+Tanger,17000,130
+Tanger,15000,220
+Tanger,7000,153
+Tanger,10000,170
+'Tanger Medina à              Tanger',6300,100
+'Tanger Medina à              Tanger',8000,145
+Tanger,8000,123
+Tanger,7000,150
+'Tanger Medina à              Tanger',6500,106
+Tanger,9000,115
+Tanger,7500,120
+'Tanger Medina à              Tanger',16000,220
+Tanger,6000,130
+Tanger,7500,105
+Tanger,6500,100
+'Tanger Medina à              Tanger',6000,120
+Tanger,6000,130
+Tanger,5500,95
+Tanger,5500,120
+Tanger,7000,117
+'Tanger Medina à              Tanger',9000,155
+'Tanger Medina à              Tanger',9500,300
+'Tanger Medina à              Tanger',8000,90
+'Tanger Medina à              Tanger',11000,124
+'Tanger Medina à              Tanger',9000,130
+'Tanger Medina à              Tanger',12000,122
+'Tanger Medina à              Tanger',5500,110
+'Tanger Medina à              Tanger',7500,65
+'Tanger Medina à              Tanger',5000,80
+'Tanger Medina à              Tanger',5000,80
+'Tanger Medina à              Tanger',8000,136
+Tanger,8000,140
+'Tanger Medina à              Tanger',18000,180
+Tanger,8000,100
+'Tanger Medina à              Tanger',7000,110
+'Tanger Medina à              Tanger',10000,136
+'Tanger Medina à              Tanger',11000,156
+'Tanger Medina à              Tanger',5500,100
+Tanger,12000,200
+'Tanger Medina à              Tanger',9500,150
+Tanger,10000,180
+Tanger,11000,160
+'Tanger Medina à              Tanger',7000,115
+'Tanger Medina à              Tanger',10000,140
+'Tanger Medina à              Tanger',16000,220
+Tanger,7500,130
+Tanger,15000,220
+'Tanger Medina à              Tanger',9000,100
+'Tanger Medina à              Tanger',10000,85
+Tanger,7000,130
+'Tanger Medina à              Tanger',6500,99
+'Tanger Medina à              Tanger',8000,146
+'Tanger Medina à              Tanger',6500,99
+'Tanger Medina à              Tanger',5200,120
+'Tanger Medina à              Tanger',8000,110
+Tanger,7500,115
+Tanger,7500,120
+Tanger,6000,104
+Tanger,6000,94
+'Tanger Medina à              Tanger',5000,85
+Tanger,8000,100
+Tanger,8000,174
+'Tanger Medina à              Tanger',7000,79
+Tanger,10000,145
+Tanger,7000,115
+Tanger,7000,115
+'Tanger Medina à              Tanger',4500,70
+'Tanger Medina à              Tanger',5500,92
+'Tanger Medina à              Tanger',4500,60
+'Tanger Medina à              Tanger',17000,176
+'Tanger Medina à              Tanger',6500,107
+'Tanger Medina à              Tanger',13000,105
+'Iberie à              Tanger',13000,105
+'Tanger Medina à              Tanger',7000,120
+Tanger,5500,120
+'Tanger Medina à              Tanger',10000,160
+'Tanger Medina à              Tanger',5500,129
+Tanger,5500,115
+Tanger,5000,105
+'Iberie à              Tanger',7500,129
+Tanger,6000,150
+'Tanger Medina à              Tanger',6000,90
+Tanger,6500,150
+'Tanger Medina à              Tanger',6000,80
+Tanger,7500,95
+Tanger,10000,167
+'Iberie à              Tanger',7500,130
+'Tanger Medina à              Tanger',7000,110
+Tanger,6000,120
+'Tanger Medina à              Tanger',6000,146
+'Tanger Medina à              Tanger',7000,94
+Tanger,15000,171
+Tanger,10000,134
+'Tanger Medina à              Tanger',6000,110
+Tanger,5500,98
+'Tanger Medina à              Tanger',5800,120
+Tanger,12000,190
+Tanger,12000,95
+Tanger,7500,110
+Tanger,8000,133
+Tanger,9500,174
+'Tanger Medina à              Tanger',13000,200
+Tanger,12000,250
+Tanger,10000,106
+'Tanger Medina à              Tanger',12000,138
+Tanger,13000,298
+'Iberie à              Tanger',11000,127
+Tanger,7000,99
+Tanger,6500,130
+'Tanger Medina à              Tanger',10000,160
+Tanger,11000,166
+'Tanger Medina à              Tanger',19600,284
+'Tanger Medina à              Tanger',6000,100
+'Tanger Medina à              Tanger',10000,120
+'Charf Mghougha à              Tanger',9500,85
+'Tanger Medina à              Tanger',7000,135
+'Tanger Medina à              Tanger',8000,127
+'Charf Mghougha à              Tanger',8000,130
+'Charf Mghougha à              Tanger',10000,106
+'Charf Mghougha à              Tanger',7500,80
+'Charf Mghougha à              Tanger',9500,104
+Tanger,23000,299
+Tanger,8000,100
+'Tanger Medina à              Tanger',7500,123
+Tanger,12000,140
+'Charf Mghougha à              Tanger',13000,125
+Tanger,9500,135
+'Malabata à              Tanger',7000,120
+'Charf Mghougha à              Tanger',6500,120
+Tanger,13000,130
+'Charf Mghougha à              Tanger',6000,55
+'Charf Mghougha à              Tanger',7000,86
+Tanger,10000,120
+'Charf Mghougha à              Tanger',9000,128
+'Tanger Medina à              Tanger',11000,190
+'Charf Mghougha à              Tanger',13000,90
+'Charf Mghougha à              Tanger',7000,95
+'Charf Mghougha à              Tanger',6000,60
+Tanger,8000,100
+Tanger,12000,160
+'Charf Mghougha à              Tanger',12000,135
